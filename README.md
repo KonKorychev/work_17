@@ -403,7 +403,7 @@ rubric_df = rubric_df.query('rubric!=""')
 # Вывод 10 популярных рубрик
 rubric_df.groupby('rubric').count().sort_values('count', ascending=False).head(10)
 ```
-![png](Images/table04.jpg)
+![png](Images/table05.jpg)
 
 ### Анализ постов из рубрики "skillbox_дизайн"
 ```python
@@ -457,7 +457,7 @@ month_df = month_df[month_df['text'].str.contains('#skillbox_дизайн')]
 # Вывод постов
 month_df
 ```
-![png](Images/table05.jpg)
+![png](Images/table06.jpg)
 
 ```python
 # Вывод текста поста с наибольшим количеством лайков
@@ -476,7 +476,7 @@ month_df = month_df[month_df['text'].str.contains('#skillbox_дизайн')]
 # Вывод постов
 month_df
 ```
-![png](Images/table06.jpg)
+![png](Images/table07.jpg)
 
 ```python
 # Вывод текста поста с наибольшим количеством лайков
@@ -495,7 +495,7 @@ month_df = month_df[month_df['text'].str.contains('#skillbox_дизайн')]
 # Вывод постов
 month_df
 ```
-![png](Images/table07.jpg)
+![png](Images/table08.jpg)
 
 ```python
 # Вывод текста поста с наибольшим количеством лайков
